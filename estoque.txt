@@ -1,0 +1,15 @@
+Código: 1, Nome: Arroz, Descrição: Branco, Quantidade Estoque: 50, Preço unidade: 08/12, Data de validade: 25.0
+
+Código: 4, Nome: airforce, Descrição: 1, Quantidade Estoque: 200, Preço unidade: 799.0
+
+Código: 5, Nome: Monitor, Descrição: 75hz, Quantidade Estoque: 100, Preço unidade: Samsumg, Marca: tv30, Modelo: 599.0
+
+Código: 7, Nome: pera, Descrição: verde, Quantidade Estoque: 21, Preço unidade: 12/11, Data de validade: 12.0
+
+Código: 11, Nome: bola, Descrição: basquete, Quantidade Estoque: 40, Preço unidade: 77.0
+
+Código: 3, Nome: pedra, Descrição: a, Quantidade Estoque: 1, Preço unidade: 0.0
+
+Código: 8, Nome: iphone11, Descrição: funciona, Quantidade Estoque: 10, Preço unidade: 11000.0
+
+Código: 12, Nome: uva, Descrição: verde, Quantidade Estoque: 12, Preço unidade: 10/10, Data de validade: 7.0
