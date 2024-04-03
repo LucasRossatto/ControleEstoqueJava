@@ -10,56 +10,51 @@ import java.io.PrintWriter;
 
 public class Produto {
 
-	private int codigoProduto;
-	private String nomeProduto;
-	private String descricaoProduto;
-	private int quantidadeEmEstoque;
-	private double precoUnitario;
+	private int intCodigoProduto;
+	private String strNomeProduto;
+	private String strDescricaoProduto;
+	private int intQuantidadeEmEstoque;
+	private double doublePrecoUnitario;
 
 	public int getCodigoProduto() {
-		return codigoProduto;
+		return intCodigoProduto;
 	}
 
-	public void setCodigoProduto(int codigoProduto) {
-		this.codigoProduto = codigoProduto;
+	public void setCodigoProduto(int intCodigoProduto) {
+		this.intCodigoProduto = intCodigoProduto;
 	}
 
 	public String getNomeProduto() {
-		return nomeProduto;
+		return strNomeProduto;
 	}
 
-	public void setNomeProduto(String nomeProduto) {
-		this.nomeProduto = nomeProduto;
+	public void setNomeProduto(String strNomeProduto) {
+		this.strNomeProduto = strNomeProduto;
 	}
 
 	public String getDescricaoProduto() {
-		return descricaoProduto;
+		return strDescricaoProduto;
 	}
 
-	public void setDescricaoProduto(String descricaoProduto) {
-		this.descricaoProduto = descricaoProduto;
+	public void setDescricaoProduto(String strDescricaoProduto) {
+		this.strDescricaoProduto = strDescricaoProduto;
 	}
 
 	public int getQuantidadeEmEstoque() {
-		return quantidadeEmEstoque;
+		return intQuantidadeEmEstoque;
 	}
 
-	public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
-		this.quantidadeEmEstoque = quantidadeEmEstoque;
+	public void setQuantidadeEmEstoque(int intQuantidadeEmEstoque) {
+		this.intQuantidadeEmEstoque = intQuantidadeEmEstoque;
 	}
 
 	public double getPrecoUnitario() {
-		return precoUnitario;
+		return doublePrecoUnitario;
 	}
 
-	public void setPrecoUnitario(double precoUnitario) {
-		this.precoUnitario = precoUnitario;
+	public void setPrecoUnitario(double doublePrecoUnitario) {
+		this.doublePrecoUnitario = doublePrecoUnitario;
 	}
-
-	// exibirDetalhes(): Retorna uma String com as informações do produto no arquivo
-	// estoque.txt
-	// gravaEstoque(int codigo, String nome): Grava os dados informados no arquivo
-	// estoque.txt
 
 	public static String exibirDetalhes(String fileName) {
 	        StringBuilder content = new StringBuilder(); // Cria um objeto StringBuilder para armazenar o conteúdo do arquivo
