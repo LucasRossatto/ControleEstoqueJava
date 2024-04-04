@@ -126,9 +126,6 @@ public class FileTestUser {
 
 	}
 
-	static public void case1() {
-
-	}
 
 	static public void menu() {
 		System.out.println("Digite");
